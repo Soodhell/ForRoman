@@ -1,0 +1,684 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    position: absolute;
+}
+
+button{
+    position: absolute;
+}
+
+#blur{
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(to top, #000000, #1b1b1b);
+    margin-top: 720px;
+    filter: blur(30px);
+}
+
+#transition{
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(to top, #000000, #1f1f1f);
+    margin-top: 750px;
+}
+
+
+/*Шапка*/
+
+#head{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+}
+
+#label{
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 1000;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: 35px;
+    letter-spacing: 0.5em;
+    color: #fff;
+}
+
+#information{
+    position: relative;
+    margin-left: 800px;
+    margin-top: -48px;
+}
+
+.info{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 17px;
+    transition: 0.2s;
+}
+
+.info:hover{
+    color: #e79435;
+}
+
+.position{
+    font-family: "Montserrat", sans-serif;
+    margin-left: 50px;
+}
+
+#subscription{
+    position: relative;
+    width: 120px;
+    height: 40px;
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: 600;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+#subscription:hover{
+    color: #fff;
+    background-color: #000;
+}
+
+#background{
+    position: absolute;
+    height: 773px;
+    top: -20px;
+    width: 100%;
+}
+
+.initial_text{
+    position: absolute;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 150px;
+    font-size: 55px;
+    letter-spacing: 0.2em;
+}
+
+#first_line_initial_text{
+    margin-left: 40%;
+}
+
+#second_line_initial_text{
+    top: 90px;
+    margin-left: 27%;
+}
+
+/*Концепция*/
+
+#concept{
+    position: absolute;
+    width: 100%;
+    height: 760px;
+    margin-top: 883px;
+    background-color: #000000;
+}
+
+.concept_text{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 200px;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    letter-spacing: 0.1em;
+}
+
+#concept_motivating_text{
+    top: 50px;
+    font-size: 23px;
+    line-height: 2;
+    font-weight: 700;
+}
+
+#concept_main_text{
+    top: 250px;
+    line-height: 2;
+}
+
+.line_vertical{
+    position: absolute;
+}
+
+#concept_line_long{
+    width: 1px;
+    height: 478px;
+    border: 0px;
+    background-color: #fff;
+    margin-left: 140px;
+    margin-top: 190px;
+}
+
+/*услуги*/
+
+#services{
+    position: absolute;
+    margin-top: 1613px;
+    width: 100%;
+    height: 2500px;
+    background-color: #ffffff;
+}
+
+.setting_text{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 200px;
+    font-family: "Montserrat", sans-serif;
+    color: #000000;
+    letter-spacing: 0.1em;
+}
+
+#service_text{
+    font-size: 18px;
+}
+
+#service_world_text{
+    top: 70px;
+    font-size: 25px;
+    line-height: 2;
+    font-weight: bold;
+}
+
+#service_line_long{
+    width: 1px;
+    height: 225px;
+    border: 0px;
+    background-color: #000000;
+    margin-left: 140px;
+    margin-top: 190px;
+}
+
+#service_autonomous_text{
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 1.5;
+    top: 370px;
+    left: 30px;
+}
+
+#service_main_text{
+    top: 500px;
+    left: 30px;
+    line-height: 2;
+}
+
+#autonomous_img{
+    margin-left: 769px;
+    margin-top: 400px;
+}
+
+.button_setting{
+    width: 140px;
+    height: 40px;
+    border: 1px solid #000;
+    background-color: #fff;
+    cursor: pointer;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+#button_service_autonomous{
+    margin-left: 229px;
+    margin-top: 950px;
+}
+
+.button_setting:hover{
+    color: #fff;
+    background-color: #000;
+}
+
+.more{
+    position: relative;
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.arrow{
+    position: absolute;
+    width: 45px;
+    height: 38px;
+    border: 1px solid #000;
+    background-color: #fff;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+#service_arrow{
+    margin-left: 368px;
+    margin-top: 950px;
+}
+
+.line{
+    position: absolute;
+    background-color: #000;
+    border: 0px;
+}
+
+#service_line_one{
+    margin-top: 19px;
+    margin-left: 13px;
+    width: 15px;
+    height: 2px;
+}
+
+#service_line_two{
+    margin-top: 15px;
+    margin-left: 17px;
+    width: 12px;
+    height: 1.5px;
+    transform: rotate(45deg);
+}
+
+#service_line_three{
+    margin-top: 22px;
+    margin-left: 17.5px;
+    width: 12px;
+    height: 1.5px;
+    transform: rotate(135deg);
+}
+
+/*Реальное время*/
+
+#real_time_text{
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 1.5;
+    top: 1000px;
+    left: 740px;
+}
+
+#real_time_main_text{
+    top: 1140px;
+    left: 740px;
+    line-height: 2;
+}
+
+#button_real_time{
+    margin-left: 940px;
+    margin-top: 1590px;
+}
+
+#real_time_img{
+    margin-top: 1070px;
+}
+
+#real_time_arrow{
+    margin-left: 1079px;
+    margin-top: 1590px;
+}
+
+#real_time_line_one{
+    margin-top: 19px;
+    margin-left: 13px;
+    width: 15px;
+    height: 2px;
+}
+
+#real_time_line_two{
+    margin-top: 15px;
+    margin-left: 17.5px;
+    width: 12px;
+    height: 1.5px;
+    transform: rotate(45deg);
+}
+
+#real_time_line_three{
+    margin-top: 22px;
+    margin-left: 17.5px;
+    width: 12px;
+    height: 1.5px;
+    transform: rotate(135deg);
+}
+
+/*Все аспекты жизни*/
+
+#all_aspects_text{
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 1.5;
+    top: 1700px;
+    left: 28px;
+}
+
+#all_aspects_main_text{
+    line-height: 2;
+    top: 1830px;
+    left: 28px;
+}
+
+#button_all_aspects{
+    margin-left: 229px;
+    margin-top: 2280px;
+}
+
+#all_aspects_arrow{
+    margin-left: 368px;
+    margin-top: 2280px;
+}
+
+#all_aspects_line_one{
+    margin-top: 19px;
+    margin-left: 13px;
+    width: 15px;
+    height: 2px;
+}
+
+#all_aspects_line_two{
+    margin-top: 15px;
+    margin-left: 17.5px;
+    width: 12px;
+    height: 1.5px;
+    transform: rotate(45deg);
+}
+
+#all_aspects_line_three{
+    margin-top: 22.5px;
+    margin-left: 17.5px;
+    width: 12px;
+    height: 1.5px;
+    transform: rotate(135deg);
+}
+
+#all_aspects_img{
+    margin-left: 769px;
+    margin-top: 1800px;
+}
+
+/*Autono в цифрах*/
+
+#numbers{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    margin-top: 4120px;
+    background-color: #ffffff;
+}
+
+.setting_Autono_text{
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 900px;
+}
+
+#Autono_text{
+    font-size: 25px;
+}
+
+#staff{
+    top: 90px;
+    font-size: 45px;
+    letter-spacing: 0.1em;
+}
+
+#command{
+    top: 90px;
+    font-size: 45px;
+    left: 270px;
+}
+
+#Autono_line_staff{
+    width: 150px;
+    height: 1px;
+    margin-left: 900px;
+    margin-top: 220px;
+}
+
+#Autono_line_bold_staff{
+    width: 23px;
+    height: 3px;
+    margin-left: 900px;
+    margin-top: 218px;
+}
+
+#staff_text{
+    top: 230px;
+}
+
+#command_text{
+    top: 230px;
+    left: 270px;
+}
+
+#Autono_line_command{
+    width: 150px;
+    height: 1px;
+    margin-left: 1170px;
+    margin-top: 220px;
+}
+
+#Autono_line_bold_command{
+    width: 23px;
+    height: 3px;
+    margin-left: 1170px;
+    margin-top: 218px;
+}
+
+#capital{
+    top: 320px;
+    font-size: 40px;
+    letter-spacing: 0.1em;
+}
+
+#Autono_line_capital{
+    width: 150px;
+    height: 1px;
+    margin-left: 900px;
+    margin-top: 440px;
+}
+
+#Autono_line_bold_capital{
+    width: 23px;
+    height: 3px;
+    margin-left: 900px;
+    margin-top: 438px;
+}
+
+#capital_text{
+    top: 450px; 
+}
+
+#partners{
+    top: 320px;
+    left: 270px;
+    font-size: 40px;
+    letter-spacing: 0.1em;
+}
+
+#Autono_line_partners{
+    width: 150px;
+    height: 1px;
+    margin-left: 1170px;
+    margin-top: 440px;
+}
+
+#Autono_line_bold_partners{
+    width: 23px;
+    height: 3px;
+    margin-left: 1170px;
+    margin-top: 438px;
+}
+
+#partners_text{
+    top: 450px;
+    left: 270px;
+}
+
+/*отрасль*/
+
+#industry{
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    background-color: #000;
+    margin-top: 4820px;
+}
+.setting_text_industry{
+    position: absolute;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 230px;
+    margin-top: 150px;
+    letter-spacing: 0.1em;
+}
+
+#industry_text{
+    font-size: 15px;
+}
+
+#industry_text_partners{
+    font-size: 25px;
+    top: 70px;
+    line-height: 1.5;
+}
+
+#industry_main_text{
+    top: 220px;
+    line-height: 1.5;
+}
+
+#line_industry{
+    position: absolute;
+    background-color: #fff;
+    border: 0px;
+    width: 1px;
+    height: 400px;
+    margin-left: 170px;
+    margin-top: 150px;
+}
+
+#general_transport_img{
+    margin-top: 120px;
+    margin-left: 900px;
+}
+
+#idi_software_img{
+    margin-top: 150px;
+    margin-left: 1250px;
+}
+
+#imogen_cars_img{
+    margin-top: 400px;
+    margin-left: 930px;
+}
+
+#tri_nex_img{
+    margin-top: 400px;
+    margin-left: 1250px;
+}
+
+#general_transport_text{
+    margin-top: 270px;
+    margin-left: 860px;
+}
+
+#idi_software_text{
+    margin-top: 270px;
+    margin-left: 1230px;
+}
+
+#imogen_cars_text{
+    margin-top: 515px;
+    margin-left: 900px;
+}
+
+#tri_nex_text{
+    margin-top: 515px;
+    margin-left: 1260px;
+}
+
+/*Карьера*/
+
+#career{
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    background-color: #000;
+    margin-top: 5521px;
+}
+
+.setting_career_text{
+    position: absolute;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 150px;
+    margin-left: 230px;
+}
+
+#career_main_text{
+    top: 75px;
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.button_setting_vacancies{
+    width: 140px;
+    height: 40px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    transition: 0.3s;
+    color: #fff;
+}
+
+.button_setting_vacancies:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+#button_career_vacancies{
+    margin-top: 450px;
+    margin-left: 230px;
+}
+
+#career_arrow{
+    background-color: #000;
+    border: 1px solid #fff;
+    margin-left: 369px;
+    margin-top: 450px;
+}
+
+#career_line_one{
+    background-color: #fff;
+    margin-top: 19px;
+    margin-left: 13px;
+    width: 15px;
+    height: 2px;
+}
+
+#career_line_two{
+    background-color: #fff;
+    margin-top: 15px;
+    margin-left: 17.6px;
+    width: 12px;
+    height: 1.5px;
+    transform: rotate(45deg);
+}
+
+#career_line_three{
+    background-color: #fff;
+    margin-top: 22px;
+    margin-left: 18px;
+    width: 12px;
+    height: 1.5px;
+    transform: rotate(135deg);
+}
